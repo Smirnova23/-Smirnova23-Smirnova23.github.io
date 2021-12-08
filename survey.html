@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset="utf-8">
+  <title>Anime news</title>
+  <meta name="description" content="This site helps people to keep track of the latest news in anime world">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel = "stylesheet" href = "style.css">
+
+</head>
+<body>
+  <div class="header">
+    <h1>Anime news</h1>
+  </div>
+
+  <div class="topnav">
+    <a href="index.html">Home</a>
+    <a href="anime.html">Anime</a>
+    <a href="k-dramas.html">K-Dramas</a>
+    <a href="donghua.html">Donghua</a>
+    <a href="films.html">Films</a>
+    <a class="active" href="survey.html" style="float:right">Survey</a>
+  </div>
+
+  <div class="row">
+    <div class="leftcolumn">
+      <div class="card">
+        <h1>Time for a survey!</h1>
+        <p font size="4"><b>N.B!</b>This survey is organised for non-commercial purposes. We do not sell your personal information.
+          Please, participate in it so that we could upgrade the site to make it more comfortable for the users.</p>
+        <h3>First, enter your personal information.<h3>
+        <div class="form1">
+          <form  action="http://g06u33.nn2000.info/cgi-bin/form_action.py"  method='post' target="_blank">   <!--<form action="/echo" method="post" target="_self">-->
+            <p><label for="surname">Surname:</label> <input type="text" name="surname" placeholder="Snow" required></p>
+            <p><label for="fname">First name:</label> <input type="text" name="first_name" placeholder="John" required></p>
+            <p><label for="tel">Mobile number:</label> <input type="tel" name="telefone" placeholder="89338238979" required></p>
+            <p><label for="email">Email adress:</label> <input type="email" name="email" placeholder="smth@gmail.com" required></p>
+            <p><label for="date">Date:</label> <input type="date" name="date" placeholder="20-09-2020" required></p>
+            <p>Then, answer some questions.</p>
+            <ol>
+              <li><label for="answer1">Is this site easy to use?</label><br><input type="text" name="answer1" required></li><br>
+              <li><label for="answer2">How would you describe your experience using the site?</label><br><input type="text" name="answer2" required></li><br>
+              <li><label for="answer3">Do you have any suggestions regarding the design of the site?<br>If yes, please, specify.</label><br><input type="text" name="answer3" required></li><br>
+            </ol>
+            <p>File name: <input type="Техт" name="000_file_name" value="smrn.txt">
+              <br>Add/clear:<select name="010_mode">
+                <OPTION value="a">add</OPTION>
+                <OPTION value="w">clear and add</OPTION>
+              </select></p>
+              <p><input type="reset" name="reset" value="Clear">
+                <input type="submit" name="submit" value="Submit">
+              </p>
+          </form>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Comment section</h3>
+        <p>If you have any questions, comments or suggestions, or if you wish to report smth, use the form below.</p>
+        <div class="form2">
+          <form action="http://g06u33.nn2000.info/cgi-bin/form_action.py" method="post" target="_blank">
+            <p><label for="surname">Surname:</label> <input type="text" name="surname" placeholder="Snow" required></p>
+            <p><label for="comment_type">Type:</label> <input type="text" name="comtype" placeholder="suggestion/report" required></p>
+            <p><label for="comm2">Comments:</label><br><textarea id="comm2" name="comment2" placeholder="Write a comment ..." style="height:80px; width:400px"></textarea></p>
+            <p>File name: <input type="Техт" name="00_file_name" value="sm.txt">
+              <br>Add/clear:<select name="010_mode">
+                <OPTION value="a">add</OPTION>
+                <OPTION value="w">clear and add</OPTION>
+              </select></p>
+              <p><input type="reset" name="reset" value="Clear">
+                <input type="submit" name="submit" value="Submit">
+              </p>
+            </form>
+            <p>Thank you for your feedback. We really appreciate your time.</p>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Click to see result:</h3>
+        <a href="http://g06u33.nn2000.info/tmp/smrn.txt" target = "_blanc">Result</a>
+      </div>
+    </div>
+    <div class="rightcolumn">
+      <div class="card">
+        <h2>Donghua</h2>
+        <div class="fakeimg" style="height:250px; width:400px">
+          <a href="https://guardians-of-night.fandom.com/wiki/Guardians_of_Night_Wiki"><img src="img/420.jpg" width="400px" height="250px"></a>
+        </div>
+        <p>Guardians of Night</p>
+      </div>
+      <div class="card">
+        <h3>K-Dramas</h3>
+        <div class="fakeimg" style="height:250px; width:400px">
+          <a href="https://www.netflix.com/ru-en/title/81323551"><img title="The Uncanny Counter" src="https://occ-0-2774-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABfjsxajHHtUbqsfEt23y48ZQkJQQZYYLCruHX-qS_rtcdpZLk6-P_CSYY6azP3N-GYO4WIfCudEDv7dHlSXzZYo7qgZ1Y8ikX_e4fsiNv46_IePTdU5yNb3U3x6j.jpg?r=033" width="400px" height="250px"></a>
+        </div>
+        <br>
+        <div class="fakeimg"style="height:250px; width:400px">
+          <a href="https://www.netflix.com/ru-en/title/81430301"><img title="Mad for Each Other" src="https://occ-0-2774-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABUD_qm5fbP5xTGEUyh9mIIvSF-8z_B7jwtSNvTJyFvLyjlwvCz8OSRMy-xhen2aE_AM9TDCqcyEhgD40JCxXpr3LVzMRWMralVdpyg3tS3ZHvmiRlLvNJOT1-2UF.jpg?r=ade" width="400px" height="250px"></a>
+        </div>
+        <br>
+        <div class="fakeimg"style="height:250px; width:400px">
+          <a href="https://www.netflix.com/ru-en/title/81473219" target = "_blanc"><img title="Reflection of You" src="https://occ-0-2774-2773.1.nflxso.net/dnm/api/v6/X194eJsgWBDE2aQbaNdmCXGUP-Y/AAAABWbBGqEGTx_MzJunSAejo-SBnkuJm3of5M3JWpKXHJCY1czQnoM8z5FDVaYPa44rNh9QOfDBgqAYklLRpcLK0442VX16R-QTy3gtQQsRO27poi1XSiJg4sXfe7H8AfzdYg9lOxENNzr7HFEdauVWbqTwkgA_WQ.jpg?r=3ca" width="400px" height="250px"></a>
+        </div>
+      </div>
+      <div class="card">
+        <h3>Info</h3>
+        <p>Click on the picture to get more information about any title.</p>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer">
+    <p>AnimeNews contains the latest news, content on anime-related topics and a shop. The information on the titles is constantly updated and checked for errors. Shop prices are put in accordance with exchange rate.
+      While using AnimeNews, you agree to have read and accepted our terms of use, cookie and privacy policy.</p>
+    <a href="index.html"><img src="https://cdn.dribbble.com/users/1303230/screenshots/10786710/1anime_avatar_4x.jpg"></a>
+  </div>
+
+</body>
+</html>
